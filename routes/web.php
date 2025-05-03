@@ -14,7 +14,7 @@ Route::get('/stok_barang/{benda}/{merk}', function ($benda, $merk) {
     return "Stok barang untuk : " . $benda . " " . $merk;
 });
 
-Route::get('/stok_barang/{benda?}/{merk?}', function ($benda = 'Samsung', $merk = 'Samsung') {
+Route::get('/stok_barang/{benda?}/{merk?}', function ($benda = 'Nokia', $merk = 'Nokia') {
     return "Stok barang untuk : " . $benda . " " . $merk;
 });
 
